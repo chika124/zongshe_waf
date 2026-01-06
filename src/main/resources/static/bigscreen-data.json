@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "systemStatus": {
+      "online": true,
+      "protectionEnabled": true,
+      "lastUpdate": "2024-01-15T10:30:00Z"
+    },
+    "keyMetrics": {
+      "todayAttacks": 1256,
+      "blockRate": 98.5,
+      "responseTime": 23,
+      "chengduAttacks": 89
+    },
+    "realtimeAttacks": [
+      { "id": 1, "time": "10:32:15", "ip": "110.87.81.242", "type": "SQL注入", "location": "四川成都", "status": "已拦截" },
+      { "id": 2, "time": "10:31:42", "ip": "203.192.13.165", "type": "XSS攻击", "location": "北京", "status": "已拦截" },
+      { "id": 3, "time": "10:30:18", "ip": "101.228.68.178", "type": "路径遍历", "location": "上海", "status": "已拦截" },
+      { "id": 4, "time": "10:29:55", "ip": "221.216.116.155", "type": "文件上传", "location": "深圳", "status": "已拦截" },
+      { "id": 5, "time": "10:28:33", "ip": "14.111.7.47", "type": "CSRF", "location": "杭州", "status": "已拦截" },
+      { "id": 6, "time": "10:27:21", "ip": "45.78.123.89", "type": "命令注入", "location": "南京", "status": "已拦截" },
+      { "id": 7, "time": "10:26:15", "ip": "78.91.234.56", "type": "SQL注入", "location": "济南", "status": "已拦截" },
+      { "id": 8, "time": "10:25:08", "ip": "92.156.78.90", "type": "XSS攻击", "location": "武汉", "status": "已拦截" },
+      { "id": 9, "time": "10:24:42", "ip": "156.89.123.45", "type": "路径遍历", "location": "郑州", "status": "已拦截" },
+      { "id": 10, "time": "10:23:35", "ip": "67.89.234.12", "type": "文件上传", "location": "长沙", "status": "已拦截" },
+      { "id": 11, "time": "10:22:18", "ip": "123.45.67.89", "type": "SQL注入", "location": "成都", "status": "已拦截" },
+      { "id": 12, "time": "10:21:55", "ip": "234.56.78.90", "type": "XSS攻击", "location": "重庆", "status": "已拦截" },
+      { "id": 13, "time": "10:20:33", "ip": "345.67.89.01", "type": "命令注入", "location": "昆明", "status": "已拦截" },
+      { "id": 14, "time": "10:19:27", "ip": "456.78.90.12", "type": "路径遍历", "location": "贵阳", "status": "已拦截" },
+      { "id": 15, "time": "10:18:15", "ip": "567.89.01.23", "type": "SQL注入", "location": "成都", "status": "已拦截" },
+      { "id": 16, "time": "10:17:05", "ip": "158.23.67.54", "type": "暴力破解", "location": "天津", "status": "已拦截" },
+      { "id": 17, "time": "10:16:41", "ip": "199.45.89.77", "type": "XSS攻击", "location": "西安", "status": "已拦截" },
+      { "id": 18, "time": "10:15:55", "ip": "202.56.33.99", "type": "路径遍历", "location": "厦门", "status": "已拦截" },
+      { "id": 19, "time": "10:14:48", "ip": "111.222.33.44", "type": "文件上传", "location": "南宁", "status": "已拦截" },
+      { "id": 20, "time": "10:13:29", "ip": "77.88.99.100", "type": "SQL注入", "location": "成都", "status": "已拦截" }
+    ],
+    "geographicData": [
+      { "name": "四川", "value": 89, "coordinates": [104.06, 30.67] },
+      { "name": "北京", "value": 45, "coordinates": [116.40, 39.90] },
+      { "name": "上海", "value": 33, "coordinates": [121.47, 31.23] },
+      { "name": "广东", "value": 56, "coordinates": [113.27, 23.13] }
+    ],
+    "attackTrends": [
+      { "hour": "00:00", "attacks": 5 },
+      { "hour": "01:00", "attacks": 8 },
+      { "hour": "02:00", "attacks": 12 },
+      { "hour": "03:00", "attacks": 7 },
+      { "hour": "04:00", "attacks": 10 },
+      { "hour": "05:00", "attacks": 13 },
+      { "hour": "06:00", "attacks": 18 },
+      { "hour": "07:00", "attacks": 26 },
+      { "hour": "08:00", "attacks": 42 },
+      { "hour": "09:00", "attacks": 58 },
+      { "hour": "10:00", "attacks": 47 },
+      { "hour": "11:00", "attacks": 30 },
+      { "hour": "12:00", "attacks": 28 },
+      { "hour": "13:00", "attacks": 34 },
+      { "hour": "14:00", "attacks": 39 },
+      { "hour": "15:00", "attacks": 44 },
+      { "hour": "16:00", "attacks": 36 },
+      { "hour": "17:00", "attacks": 41 },
+      { "hour": "18:00", "attacks": 38 },
+      { "hour": "19:00", "attacks": 31 },
+      { "hour": "20:00", "attacks": 22 },
+      { "hour": "21:00", "attacks": 18 },
+      { "hour": "22:00", "attacks": 11 },
+      { "hour": "23:00", "attacks": 7 }
+    ]
+  }
+}

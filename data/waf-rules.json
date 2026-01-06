@@ -1,0 +1,417 @@
+{
+  "enabled" : true,
+  "rules" : [ {
+    "id" : "d399eaa6-0dea-4bbd-b92a-adcdfba1ee7c",
+    "pattern" : "select",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 100
+  }, {
+    "id" : "a2f8cf14-2b30-4fa8-878d-ce489daf7fca",
+    "pattern" : "select",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 101
+  }, {
+    "id" : "0d5a2911-d457-4c92-b594-7858f8a120d7",
+    "pattern" : "insert",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 102
+  }, {
+    "id" : "a83a98e0-ba63-4655-801e-0a2f9becec89",
+    "pattern" : "delete",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 103
+  }, {
+    "id" : "985ddac9-df3b-4f05-87a0-9b4a001f9511",
+    "pattern" : "drop",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 104
+  }, {
+    "id" : "2691f07c-be27-43cb-bf76-40b9212813d6",
+    "pattern" : "script",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 105
+  }, {
+    "id" : "9c4aa395-e701-4758-bf14-8af5d8ae4407",
+    "pattern" : "alert",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 106
+  }, {
+    "id" : "dfd9407f-fedf-4a7e-8f89-4f7228d0304c",
+    "pattern" : "../",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 107
+  }, {
+    "id" : "3d4798f3-f25c-4da0-a6cf-17586a4893c9",
+    "pattern" : "..\\",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 108
+  }, {
+    "id" : "c1f0b4c1-0bda-4f3f-b60d-9c2ae8b61c11",
+    "pattern" : "union",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 109
+  }, {
+    "id" : "c46a9a37-90b6-4fa1-afb9-349483cd2b4d",
+    "pattern" : "update",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 110
+  }, {
+    "id" : "c6120981-f7f7-4ab7-a182-9a79fba5d1ac",
+    "pattern" : "where",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 111
+  }, {
+    "id" : "e3b64c3e-5f26-43df-aac2-8f31ee4d13fa",
+    "pattern" : "and 1=1",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 112
+  }, {
+    "id" : "d0f7be24-4b3c-4543-bd7b-6cb660fb795b",
+    "pattern" : "or 1=1",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 113
+  }, {
+    "id" : "29a1cb96-3431-4889-9d0f-65abf605b91d",
+    "pattern" : "outfile",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 114
+  }, {
+    "id" : "fe019ca6-016d-4c0f-b769-771f27babaa0",
+    "pattern" : "load_file",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 115
+  }, {
+    "id" : "aa0727e1-7a8a-4fee-95dd-c36f815dfc54",
+    "pattern" : "information_schema",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 116
+  }, {
+    "id" : "f5838bda-5d6a-46c1-81c9-1d2c742af1c4",
+    "pattern" : "benchmark(",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 117
+  }, {
+    "id" : "7d9819d3-086d-47ee-93e0-d479d9919b5e",
+    "pattern" : "sleep(",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 118
+  }, {
+    "id" : "cb9c8c97-0e57-4211-bc8d-aa13058f2321",
+    "pattern" : "0x",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 119
+  }, {
+    "id" : "7c41a628-0a58-4d20-8f17-dcbdf00f6e56",
+    "pattern" : "base64",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 120
+  }, {
+    "id" : "d0eb88aa-4178-41b2-9a6e-19fb7790b0cc",
+    "pattern" : "hex(",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 121
+  }, {
+    "id" : "b7d1b5ce-59e0-4354-b2c6-ae1d747f382b",
+    "pattern" : "<script",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 122
+  }, {
+    "id" : "870ae53e-bf41-4f40-8080-7d68ec6a41af",
+    "pattern" : "onerror=",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 123
+  }, {
+    "id" : "71af0163-9dfc-44dd-8d68-6d35f4b7a2f4",
+    "pattern" : "onload=",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 124
+  }, {
+    "id" : "a72d84fc-7f54-4d13-9034-1f51b7be0b16",
+    "pattern" : "javascript:",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 125
+  }, {
+    "id" : "0e874a30-ee1e-40fb-87fa-69c3adbebf58",
+    "pattern" : "<img",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 126
+  }, {
+    "id" : "f4cc31a0-b068-49a7-812c-3c9467b2279c",
+    "pattern" : "<iframe",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 127
+  }, {
+    "id" : "a8fdef46-5308-4b1d-832a-62f06bce3f30",
+    "pattern" : "data:text/html",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 128
+  }, {
+    "id" : "6b9be3d3-54c0-4f70-870e-6bd6a1aea0f4",
+    "pattern" : "vbscript:",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 129
+  }, {
+    "id" : "993302fe-2378-48a0-a37b-eea1d846b284",
+    "pattern" : "../",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 130
+  }, {
+    "id" : "b82b4c88-725e-4df2-baff-5864cb36f51a",
+    "pattern" : "..\\",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 131
+  }, {
+    "id" : "8df65e6c-309b-41e8-9994-fbdc517f573d",
+    "pattern" : "../../",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 132
+  }, {
+    "id" : "89a9cc40-2e30-4eba-872a-5f17fd2fa5a9",
+    "pattern" : "/etc/passwd",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 133
+  }, {
+    "id" : "c3b09958-386c-4bf8-b37f-6061d87f0e9d",
+    "pattern" : "proc/self",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 134
+  }, {
+    "id" : "dc220a56-f705-4bc4-bd69-25345b0a53cb",
+    "pattern" : "windows/system32",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 135
+  }, {
+    "id" : "e9fa9c47-bc25-45e1-a719-f3b4eca9129c",
+    "pattern" : "php://",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 136
+  }, {
+    "id" : "b44ddd91-6df3-4fa8-a66a-eb7e4f9d7bde",
+    "pattern" : "file://",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 137
+  }, {
+    "id" : "91cfadb7-9737-4f06-ab6e-7db7bf4b8fb5",
+    "pattern" : "dict://",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 138
+  }, {
+    "id" : "598a034e-56c6-4ef4-9939-64c4740bbd1b",
+    "pattern" : "expect://",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 139
+  }, {
+    "id" : "5775a3e0-68fa-4085-987b-520a05467784",
+    "pattern" : "input_file",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 140
+  }, {
+    "id" : "fe71cf6b-7f8b-4521-9e7d-43bcfce2fa0c",
+    "pattern" : "wget",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 141
+  }, {
+    "id" : "7a7740bc-4714-4dca-a3e4-4e3ca65ff968",
+    "pattern" : "curl",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 142
+  }, {
+    "id" : "f657f8ad-dee3-4290-9671-e174748441c7",
+    "pattern" : "powershell",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 143
+  }, {
+    "id" : "f82afcb0-8301-4fba-a8e3-24ce2dab167a",
+    "pattern" : "system(",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 144
+  }, {
+    "id" : "58fa77f3-e019-48fa-979d-75d2cdbaccc9",
+    "pattern" : "exec(",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 145
+  }, {
+    "id" : "39374508-9e25-48df-92a6-659355a52212",
+    "pattern" : "eval(",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 146
+  }, {
+    "id" : "348cc3b4-6905-4363-99d9-5060cf922bb9",
+    "pattern" : "assert(",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 147
+  }, {
+    "id" : "9f20eb8d-a8f4-4c39-92da-47a549470b41",
+    "pattern" : "jndi:",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 148
+  }, {
+    "id" : "5f44f828-f25c-4377-bd3e-6cd847391f7b",
+    "pattern" : "ldap://",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 149
+  }, {
+    "id" : "ca2cd67f-b440-4bdd-a30c-792f7874e925",
+    "pattern" : "rmi://",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 150
+  }, {
+    "id" : "f1af0ea2-c20a-45f5-9ff0-65c6adc15d6c",
+    "pattern" : "${",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 151
+  }, {
+    "id" : "0b7ca5f3-a75d-45e9-92fa-cc5d582ac0da",
+    "pattern" : "shell",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 152
+  }, {
+    "id" : "7d1c5e0f-7030-4e32-854e-92f401ccc6d0",
+    "pattern" : "cmd.exe",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 153
+  }, {
+    "id" : "12b613db-81e4-4e5f-bbbb-69327347284b",
+    "pattern" : "bash -c",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 154
+  }, {
+    "id" : "7e589805-57a9-4bdd-8357-0e725d5d4c31",
+    "pattern" : "chmod 777",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 155
+  }, {
+    "id" : "8129d3da-6598-4247-9e29-41b5188db16b",
+    "pattern" : "writefile",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 156
+  }, {
+    "id" : "38b9d1de-565d-4bc4-b968-c7df19c81b36",
+    "pattern" : "upload",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 157
+  }, {
+    "id" : "5efc78b5-4be2-4ef4-b5fd-55e2d06b4de6",
+    "pattern" : "debug=",
+    "action" : "block",
+    "scope" : "query",
+    "enabled" : true,
+    "priority" : 158
+  } ]
+}
